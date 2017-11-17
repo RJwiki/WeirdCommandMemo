@@ -13,3 +13,8 @@ Ref: http://stackoverflow.com/questions/4150776/debugging-scala-code-with-simple
 
 # Show Test Coverage Report
 ./sbt coverage test coverageReport
+
+# Test Only
+./sbt
+$ testOnly service.XXXXX
+
